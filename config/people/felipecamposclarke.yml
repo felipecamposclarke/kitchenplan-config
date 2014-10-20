@@ -41,3 +41,8 @@ attributes:
             - dash
             - skype
             - sourcetree
+        vagrant_plugins:
+            - vagrant-librarian-chef
+            - vagrant-omnibus
+            - vagrant-vbguest
+            - hashie

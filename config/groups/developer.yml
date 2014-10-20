@@ -3,6 +3,7 @@ recipes:
         - applications::create_var_chef_cache
         - applications::postgresql
         - applications::mysql
+        - applications::php56
         - dotfiles::gitconfig
     mac_os_x:
         - homebrewalt::default

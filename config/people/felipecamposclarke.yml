@@ -28,6 +28,7 @@ attributes:
     homebrewalt:
         apps:
             - git-extras
+            - wget
         cask_apps:
             - dropbox
             - evernote
@@ -35,3 +36,8 @@ attributes:
             - vagrant
             - atom
             - vlc
+            - iterm2
+            - unrarx
+            - dash
+            - skype
+            - sourcetree

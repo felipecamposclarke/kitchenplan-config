@@ -5,6 +5,8 @@ recipes:
         - homebrewalt::default
 attributes:
     homebrewalt:
+        taps:
+            - homebrew/dupes
         cask_apps:
             - google-chrome
             - java

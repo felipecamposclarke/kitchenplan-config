@@ -34,5 +34,9 @@ attributes:
         rubies: ['2.0.0-p481', '2.0.0-p576', '2.1.3']
         upgrade: head
         global: '2.1.3'
+    gems:
+        - sass
+        - coffee-script
+        - cocoapods
     php-apps:
         - composer

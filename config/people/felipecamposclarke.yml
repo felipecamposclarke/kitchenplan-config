@@ -3,8 +3,7 @@ groups:
 recipes:
     mac_os_x:
         - osxdefaults::set_computer_name
-
-    - osxdefaults::menu_add_battery_percentage
+        - osxdefaults::menu_add_battery_percentage
         - osxdefaults::tap_to_click
         - osxdefaults::finder_unhide_home
         - osxdefaults::finder_disable_the_warning_before_emptying_the_trash
@@ -52,3 +51,8 @@ attributes:
             - cordova
             - cordova-cli
             - ionic
+    oh_my_zsh:
+        login: felipecamposclarke
+        theme: agnoster
+        plugins:
+            - git

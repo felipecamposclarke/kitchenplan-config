@@ -5,6 +5,8 @@ recipes:
         - applications::mysql
         - applications::php56
         - dotfiles::gitconfig
+        - dotfiles::vim
+        - dotfiles::ohmyzsh
     mac_os_x:
         - homebrewalt::default
         - nodejs::default

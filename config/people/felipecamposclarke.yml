@@ -46,3 +46,9 @@ attributes:
             - vagrant-omnibus
             - vagrant-vbguest
             - hashie
+    nodejs:
+        apps:
+            - phonegap
+            - cordova
+            - cordova-cli
+            - ionic

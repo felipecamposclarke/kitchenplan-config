@@ -12,6 +12,7 @@ recipes:
         - rbenv::system
         - applications::sublime_text_3
 attributes:
+    mysql_root_password: "password"
     homebrewalt:
         apps:
             - git

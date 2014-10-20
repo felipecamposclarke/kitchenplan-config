@@ -1,0 +1,25 @@
+recipes:
+    global:
+        - applications::create_var_chef_cache
+        - applications::postgresql
+        - applications::mysql
+        - dotfiles::gitconfig
+    mac_os_x:
+        - homebrewalt::default
+        - nodejs::default
+        - applications::sublime_text_3
+attributes:
+    homebrewalt:
+        apps:
+            - git
+            - git-flow
+        cask_apps:
+            - sequel-pro
+            - sourcetree
+    nodejs:
+        apps:
+            - bower
+            - grunt
+            - grunt-cli
+            - gulp
+            - yo

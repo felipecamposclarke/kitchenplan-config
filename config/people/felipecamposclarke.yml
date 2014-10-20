@@ -1,0 +1,24 @@
+groups:
+    - developer
+recipes:
+    mac_os_x:
+        - osxdefaults::set_computer_name
+attributes:
+    git:
+        name: Felipe Campos Clarke
+        email: felipecamposclarke@gmail.com
+        aliases:
+            ci: commit
+            st: status
+    osxdefaults:
+        computername: felipecamposclarke
+    homebrewalt:
+        apps:
+            - git-extras
+        cask_apps:
+            - dropbox
+            - evernote
+            - virtualbox
+            - vagrant
+            - atom
+            - vlc

@@ -1,0 +1,88 @@
+GIT
+  remote: https://github.com/fnichol/chef-rbenv
+  ref: v0.7.2
+  sha: f2b53292e810dd2b43f6121f9958f5f29979dcb1
+  specs:
+    rbenv (0.7.2)
+
+GIT
+  remote: https://github.com/fnichol/chef-ruby_build
+  ref: v0.8.0
+  sha: ed2d3841784ecf60c1de808946307b588efe644f
+  specs:
+    ruby_build (0.8.0)
+
+GIT
+  remote: https://github.com/kitchenplan/chef-applications
+  ref: v2.0.6
+  sha: dd6a67b2fbbdaa42ee0260b9db920d456cd4e7c8
+  specs:
+    applications (2.0.6)
+      dmg (>= 0.0.0)
+      dotfiles (>= 0.0.0)
+      homebrewalt (>= 0.0.0)
+      nodejs (>= 0.0.0)
+
+GIT
+  remote: https://github.com/kitchenplan/chef-dotfiles
+  ref: v1.3.2
+  sha: 1c9409b25e316b1ecc7e9f4affd10953c0003b6c
+  specs:
+    dotfiles (1.3.2)
+      osxdefaults (>= 0.0.0)
+
+GIT
+  remote: https://github.com/kitchenplan/chef-drivers
+  ref: v1.0
+  sha: a179e47b88e7958707aa044966dab17da3c14068
+  specs:
+    drivers (0.0.1)
+
+GIT
+  remote: https://github.com/kitchenplan/chef-homebrewalt
+  ref: v1.8.8
+  sha: ab6bdb5cc8e5385b0667eb64a86482518b33df25
+  specs:
+    homebrewalt (1.8.8)
+
+GIT
+  remote: https://github.com/kitchenplan/chef-nodejs
+  ref: v1.2
+  sha: 9aee82b4228bff0473874054b2eb1d008fb68d2d
+  specs:
+    nodejs (0.0.1)
+      homebrewalt (>= 0.0.0)
+
+GIT
+  remote: https://github.com/kitchenplan/chef-osxdefaults
+  ref: v1.0.4
+  sha: 069cb7f4adbf2d0e8591b51ed0d866f351cde8d0
+  specs:
+    osxdefaults (1.0.4)
+
+GIT
+  remote: https://github.com/kitchenplan/chef-sudoalt
+  ref: v2.4
+  sha: 7f9b765e0f14a4fa53ed8b7d8392ef48e42a0ec8
+  specs:
+    sudoalt (2.2.3)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/dmg
+  ref: v2.1.4
+  sha: 2b054a1a9d1419911ee4eb1996fb145d90347793
+  specs:
+    dmg (2.1.4)
+
+DEPENDENCIES
+  applications (>= 0)
+  dmg (>= 0)
+  dotfiles (>= 0)
+  drivers (>= 0)
+  homebrewalt (>= 0)
+  nodejs (>= 0)
+  osxdefaults (>= 0)
+  rbenv (>= 0)
+  ruby_build (>= 0)
+  sudoalt (>= 0)
+

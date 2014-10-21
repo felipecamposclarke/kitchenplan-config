@@ -49,7 +49,6 @@ attributes:
         apps:
             - phonegap
             - cordova
-            - cordova-cli
             - ionic
     oh_my_zsh:
         login: felipecamposclarke

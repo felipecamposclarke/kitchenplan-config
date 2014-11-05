@@ -6,6 +6,7 @@ cookbook "applications",          :github => "kitchenplan/chef-applications",   
 cookbook "osxdefaults",           :github => "kitchenplan/chef-osxdefaults",    :ref => "v1.0.4"
 cookbook "drivers",               :github => "kitchenplan/chef-drivers",        :ref => "v1.0"
 cookbook "sudoalt",               :github => "kitchenplan/chef-sudoalt",        :ref => "v2.4"
+cookbook "nvm",                   :github => "hipsnip-cookbooks/nvm",           :ref => "v0.1.0"
 cookbook "dmg",                   :github => "opscode-cookbooks/dmg",           :ref => "v2.1.4"
 cookbook "ruby_build",            :github => "fnichol/chef-ruby_build",         :ref => "v0.8.0"
 cookbook "rbenv",                 :github => "fnichol/chef-rbenv",              :ref => "v0.7.2"
